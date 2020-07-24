@@ -1,6 +1,6 @@
 @import './components/Header/Header';
 @import './components/FanArt/FanArt';
-@import './_variables';
+@import './components/Footer/Footer';
 
 html {
   box-sizing: border-box;
@@ -20,9 +20,4 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

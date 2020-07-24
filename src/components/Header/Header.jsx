@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 export default function Header({ logo, fbLink, twLink, igLink }) {
   return (
     <section className="Header">
-      <div className="Header__red-stroke" />
+      <div className="red-stroke" />
       <div className="Header__black-container">
 
         <img src={logo && logo} alt="" />

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './App.scss';
+import TextTruncate from 'react-text-truncate';
 import Header from './components/Header/Header';
 import FanArt from './components/FanArt/FanArt';
-import TextTruncate from 'react-text-truncate';
+import Footer from './components/Footer/Footer';
 
 const url =
   'https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t=new_york_yankees';
@@ -53,6 +54,8 @@ function App() {
       />
 
       <hr />
+
+      <Footer logo={yankeesData && yankeesData.strTeamBadge}/>
 
     </div>
   );

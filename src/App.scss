@@ -1,5 +1,10 @@
 @import './_variables';
 
+.red-stroke {
+  height: 8px;
+  background-color: $red;
+}
+
 img{
   width: 100%;
   height: 288px;
@@ -21,3 +26,4 @@ hr{
   border: 1px solid $red;
   margin: 32px 16px
 }
+
