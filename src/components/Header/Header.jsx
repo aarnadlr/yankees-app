@@ -5,10 +5,10 @@ import { ReactComponent as Instagram } from '../../svg/instagram.svg';
 
 export default function Header({ logo, fbLink, twLink, igLink }) {
   return (
-    <div className="Header">
+    <section className="Header">
       <div className="Header__red-stroke" />
       <div className="Header__black-container">
-        
+
         <img src={logo} alt="" />
 
         <h2>HOME OF THE</h2>
@@ -28,6 +28,6 @@ export default function Header({ logo, fbLink, twLink, igLink }) {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 }
