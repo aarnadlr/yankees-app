@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function FanArt({ img1, img2, img3, img4 }) {
   return (
@@ -28,4 +29,13 @@ export default function FanArt({ img1, img2, img3, img4 }) {
       </section>
     </>
   );
-}
+};
+
+
+FanArt.propTypes = {
+  img1: PropTypes.string,
+  img2: PropTypes.string,
+  img3: PropTypes.string,
+  img4: PropTypes.string
+};
+

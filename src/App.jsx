@@ -36,14 +36,11 @@ function App() {
 
       <h3>Yankee Stadium</h3>
 
-      {/* <p>{yankeesData && yankeesData.teams[0].strStadiumDescription}</p> */}
-
       <TextTruncate
         line={8}
         element="p"
         truncateText="…"
         text={yankeesData && yankeesData.strStadiumDescription}
-        // textTruncateChild={<a href="/jj">Read on</a>}
       />
 
       <hr />
@@ -56,7 +53,7 @@ function App() {
       />
 
       <hr />
-      
+
     </div>
   );
 }

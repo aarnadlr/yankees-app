@@ -6,10 +6,6 @@
   color: white;
   text-align: center;
 
-  //desktop
-  @media screen and (min-width: $breakpoint) {
-  }
-
   .Header__red-stroke {
     height: 8px;
     background-color: $red;
