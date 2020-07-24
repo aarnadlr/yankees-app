@@ -1,3 +1,25 @@
+## Yankees App
+
+Live deployed link: https://yankees.vercel.app/
+
+- ✅ Fully responsive layout
+
+- ✅ All assets fetched from API
+
+- ✅ PropTypes for all components
+
+- ✅ Unit tests for all components
+
+
+Thank you
+
+a
+
+
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
