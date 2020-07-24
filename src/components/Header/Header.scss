@@ -5,60 +5,90 @@
   background-color: black;
   color: white;
   text-align: center;
+  //desktop
+  @media screen and (min-width: $breakpoint) {
+    text-align: left;
+  }
 
   .Header__black-container {
     padding: 24px;
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .Header__flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+    }
   }
 
   img {
     width: 40px;
     height: 40px;
     margin: 0 0 4px 0;
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+      width: 120px;
+      height: 120px;
+      margin: 0 0 4px 0;
+    }
   }
 
   h2 {
     font-size: 14px;
     margin: 0;
     font-weight: 400;
+    position: relative;
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+      top: 2px;
+      left: 2px;
+      font-size: 16px;
+    }
   }
   h1 {
     margin: 0;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 800;
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+      font-size: 50px;
+      height: 56px;
+    }
   }
 
   .Header__social-links-group {
-
     display: flex;
     justify-content: center;
-    svg {
-      
-      // z-index: 5;
-      margin: 4px;
-      // transition: fill 0.5s ease;
-
-      // path{
-      //   transition: fill 0.5 ease;
-      //   fill: $red;
-      // }
+    //desktop
+    @media screen and (min-width: $breakpoint) {
+      justify-content: start;
     }
-    
-    // a.fbLink > svg > path, a.igLink > svg:hover > path, a.twLink > svg:hover > path {
-    //   fill: blue;
-    // }
-    svg, svg path {
+    svg {
+      margin: 4px;
+      //desktop
+      @media screen and (min-width: $breakpoint) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    svg,
+    svg path {
       transition: all 0.5s ease;
       fill: red;
     }
     svg:hover {
       transform: translateY(-3px);
-      // fill: white;
     }
     svg:hover path {
-      // transform: translateY(-3px);
       fill: white;
     }
-
-
   }
 }

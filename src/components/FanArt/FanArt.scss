@@ -5,7 +5,6 @@
     display: flex;
     margin: 0 0 16px 0;
     flex-direction: column;
-
     //desktop
     @media screen and (min-width: $breakpoint) {
       margin: 0 16px;
@@ -15,7 +14,6 @@
     .FanArt__img {
       height: 280px;
       margin: 0 16px 16px 16px;
-
       //desktop
       @media screen and (min-width: $breakpoint) {
         height: 200px;
